@@ -264,10 +264,10 @@
 			<description>You can cast your arcanum spells once without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Intlock,6" level="11" spellcasting="Intlock" />
-			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Intlock,7" level="13" spellcasting="Intlock" />
-			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Intlock,8" level="15" spellcasting="Intlock" />
-			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Intlock,9" level="17" spellcasting="Intlock" />
+			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,6" level="11" spellcasting="Intlock" />
+			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,7" level="13" spellcasting="Intlock" />
+			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,8" level="15" spellcasting="Intlock" />
+			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,9" level="17" spellcasting="Intlock" />
 		</rules>
 	</element>
 	<element name="Eldritch Master" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_INTLOCK_ELDRITCH_MASTER">
