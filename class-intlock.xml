@@ -100,7 +100,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_INTLOCK"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_INTLOCK"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_INTLOCK"/>
-			<select type="Proficiency" name="Skill Proficiency (Intlock)" supports="Skill,Intlock" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_INTLOCK"/>
+			<select type="Proficiency" name="Skill Proficiency (Intlock)" supports="Skill,Warlock" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_INTLOCK"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_INTLOCK_OTHERWORLDLY_PATRON" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_INTLOCK_SPELLCASTING_INTLOCK_PACT_MAGIC" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_INTLOCK_ELDRITCH_INVOCATIONS" level="2" />
