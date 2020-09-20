@@ -324,7 +324,7 @@
 	</element>
 
 	<!-- Eldritch Invocations (Intlock) -->
-	<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST">
+	<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>eldritch blast cantrip</prerequisite>
 		<requirements>ID_PHB_SPELL_ELDRITCH_BLAST</requirements>
@@ -342,7 +342,7 @@
 			<stat name="agonizing blast:damage" value="intelligence:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Armor of Shadows" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ARMOR_OF_SHADOWS">
+	<element name="Armor of Shadows" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_ARMOR_OF_SHADOWS">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You can cast <em>mage armor</em> on yourself at will, without expending a spell slot or material components.</p>
@@ -357,7 +357,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR" />
 		</rules>
 	</element>
-	<element name="Ascendant Step" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ASCENDANT_STEP">
+	<element name="Ascendant Step" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_ASCENDANT_STEP">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>9th level</prerequisite>
 		<requirements>[level:9]</requirements>
@@ -375,7 +375,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_LEVITATE" />
 		</rules>
 	</element>
-	<element name="Beast Speech" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEAST_SPEECH">
+	<element name="Beast Speech" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_BEAST_SPEECH">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You can cast <em>speak with animals</em> at will, without expending a spell slot.</p>
@@ -390,7 +390,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
 		</rules>
 	</element>
-	<element name="Beguiling Influence" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEGUILING_INFLUENCE">
+	<element name="Beguiling Influence" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_BEGUILING_INFLUENCE">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You gain proficiency in the Deception and Persuasion skills.</p>
@@ -403,7 +403,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
 		</rules>
 	</element>
-	<element name="Bewitching Whispers" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEWITCHING_WHISPERS">
+	<element name="Bewitching Whispers" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_BEWITCHING_WHISPERS">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>7th level</prerequisite>
 		<requirements>[level:7]</requirements>
@@ -421,7 +421,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_COMPULSION" />
 		</rules>
 	</element>
-	<element name="Book of Ancient Secrets" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BOOK_OF_ANCIENT_SECRETS">
+	<element name="Book of Ancient Secrets" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_BOOK_OF_ANCIENT_SECRETS">
 		<supports>Intlock Invocation, Pact of the Tome</supports>
 		<prerequisite>Pact of the Tome feature</prerequisite>
 		<requirements>ID_WOTC_PHB_CLASS_FEATURE_INTLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
@@ -438,7 +438,7 @@
 			<select type="Spell" name="Book of Ancient Secrets" supports="1,Ritual" number="2" spellcasting="Intlock"/>
 		</rules>
 	</element>
-	<element name="Chains of Carceri" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_CHAINS_OF_CARCERI">
+	<element name="Chains of Carceri" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_CHAINS_OF_CARCERI">
 		<supports>Intlock Invocation, Pact of the Chain</supports>
 		<prerequisite>15th level, Pact of the Chain feature</prerequisite>
 		<requirements>[level:15],ID_WOTC_PHB_CLASS_FEATURE_INTLOCK_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
@@ -456,7 +456,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" />
 		</rules>
 	</element>
-	<element name="Devil’s Sight" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVILS_SIGHT">
+	<element name="Devil’s Sight" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVILS_SIGHT">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>
@@ -465,7 +465,7 @@
 			<description>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</description>
 		</sheet>
 	</element>
-	<element name="Dreadful Word" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_DREADFUL_WORD">
+	<element name="Dreadful Word" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_DREADFUL_WORD">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>7th level</prerequisite>
 		<requirements>[level:7]</requirements>
@@ -483,7 +483,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_CONFUSION" />
 		</rules>
 	</element>
-	<element name="Eldritch Sight" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SIGHT">
+	<element name="Eldritch Sight" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SIGHT">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You can cast <em>detect magic</em> at will, without expending a spell slot.</p>
@@ -498,7 +498,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
 		</rules>
 	</element>
-	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_Eldritch_Spear">
+	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_Eldritch_Spear">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>eldritch blast cantrip</prerequisite>
 		<requirements>ID_PHB_SPELL_ELDRITCH_BLAST</requirements>
@@ -516,7 +516,7 @@
 			<!-- implement alter spell: <stat target="ID_PHB_SPELL_ELDRITCH_BLAST" field="range" value="300 feet" />-->
 		</rules>
 	</element>
-	<element name="Eyes of the Rune Keeper" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_EYES_OF_THE_RUNEKEEPER">
+	<element name="Eyes of the Rune Keeper" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_EYES_OF_THE_RUNEKEEPER">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You can read all writing.</p>
@@ -525,7 +525,7 @@
 			<description>You can read all writing.</description>
 		</sheet>
 	</element>
-	<element name="Fiendish Vigor" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_FIENDISH_VIGOR">
+	<element name="Fiendish Vigor" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_FIENDISH_VIGOR">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You can cast <em>false life</em> on yourself at will as a 1st-level spell, without expending a spell slot or material components.</p>
@@ -540,7 +540,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" />
 		</rules>
 	</element>
-	<element name="Gaze of Two Minds" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_GAZE_OF_TWO_MINDS">
+	<element name="Gaze of Two Minds" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_GAZE_OF_TWO_MINDS">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</p>
@@ -549,7 +549,7 @@
 			<description>You can touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</description>
 		</sheet>
 	</element>
-	<element name="Lifedrinker" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_LIFEDRINKER">
+	<element name="Lifedrinker" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_LIFEDRINKER">
 		<supports>Intlock Invocation, Pact of the Blade</supports>
 		<prerequisite>12th level, Pact of the Blade feature</prerequisite>
 		<requirements>[level:12],ID_WOTC_PHB_CLASS_FEATURE_INTLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
@@ -565,7 +565,7 @@
 			<stat name="lifedrinker:damage" value="intelligence:modifier" bonus="modifier"/>
 		</rules>
 	</element>
-	<element name="Mask of Many Faces" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MASK_OF_MANY_FACES">
+	<element name="Mask of Many Faces" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_MASK_OF_MANY_FACES">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You can cast <em>disguise self</em> at will, without expending a spell slot.</p>
@@ -580,7 +580,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
 		</rules>
 	</element>
-	<element name="Master of Myriad Forms" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTER_OF_MYRIAD_FORMS">
+	<element name="Master of Myriad Forms" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTER_OF_MYRIAD_FORMS">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>15th level</prerequisite>
 		<requirements>[level:15]</requirements>
@@ -598,7 +598,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" />
 		</rules>
 	</element>
-	<element name="Minions of Chaos" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MINIONS_OF_CHAOS">
+	<element name="Minions of Chaos" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_MINIONS_OF_CHAOS">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>9th level</prerequisite>
 		<requirements>[level:9]</requirements>
@@ -616,7 +616,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_ELEMENTAL" />
 		</rules>
 	</element>
-	<element name="Mire the Mind" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MIRE_THE_MIND">
+	<element name="Mire the Mind" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_MIRE_THE_MIND">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>5th level</prerequisite>
 		<requirements>[level:5]</requirements>
@@ -634,7 +634,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SLOW" />
 		</rules>
 	</element>
-	<element name="Misty Visions" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MISTY_VISIONS">
+	<element name="Misty Visions" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_MISTY_VISIONS">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You can cast <em>silent image</em> at will, without expending a spell slot or material components.</p>
@@ -649,7 +649,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE" />
 		</rules>
 	</element>
-	<element name="One with Shadows" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ONE_WITH_SHADOWS">
+	<element name="One with Shadows" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_ONE_WITH_SHADOWS">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>5th level</prerequisite>
 		<requirements>[level:5]</requirements>
@@ -661,7 +661,7 @@
 			<description>When you are in an area of dim light or darkness, you can become invisible until you move or take an action or a reaction.</description>
 		</sheet>
 	</element>
-	<element name="Otherworldly Leap" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_OTHERWORLDLY_LEAP">
+	<element name="Otherworldly Leap" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_OTHERWORLDLY_LEAP">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>9th level</prerequisite>
 		<requirements>[level:9]</requirements>
@@ -679,7 +679,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_JUMP" />
 		</rules>
 	</element>
-	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST">
+	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>eldritch blast cantrip</prerequisite>
 		<requirements>ID_PHB_SPELL_ELDRITCH_BLAST</requirements>
@@ -694,7 +694,7 @@
 			<description>When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</description>
 		</sheet>
 	</element>
-	<element name="Sculptor of Flesh" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_SCULPTOR_OF_FLESH">
+	<element name="Sculptor of Flesh" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_SCULPTOR_OF_FLESH">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>7th level</prerequisite>
 		<requirements>[level:7]</requirements>
@@ -712,7 +712,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" />
 		</rules>
 	</element>
-	<element name="Sign of Ill Omen" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_SIGN_OF_ILL_OMEN">
+	<element name="Sign of Ill Omen" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_SIGN_OF_ILL_OMEN">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>5th level</prerequisite>
 		<requirements>[level:5]</requirements>
@@ -730,7 +730,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" />
 		</rules>
 	</element>
-	<element name="Thief of Five Fates" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIEF_OF_FIVE_FATES">
+	<element name="Thief of Five Fates" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_THIEF_OF_FIVE_FATES">
 		<supports>Intlock Invocation</supports>
 		<description>
 			<p>You can cast <em>bane</em> once using an Intlock spell slot. You can’t do so again until you finish a long rest.</p>
@@ -745,7 +745,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_BANE" />
 		</rules>
 	</element>
-	<element name="Thirsting Blade" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE">
+	<element name="Thirsting Blade" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE">
 		<supports>Intlock Invocation, Pact of the Blade</supports>
 		<prerequisite>5th level, Pact of the Blade feature</prerequisite>
 		<requirements>[level:5],ID_WOTC_PHB_CLASS_FEATURE_INTLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
@@ -757,7 +757,7 @@
 			<description>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</description>
 		</sheet>
 	</element>
-	<element name="Visions of Distant Realms" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_VISIONS_OF_DISTANT_REALMS">
+	<element name="Visions of Distant Realms" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_VISIONS_OF_DISTANT_REALMS">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>15th level</prerequisite>
 		<requirements>[level:15]</requirements>
@@ -775,7 +775,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" />
 		</rules>
 	</element>
-	<element name="Voice of the Chain Master" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_VOICE_OF_THE_CHAIN_MASTER">
+	<element name="Voice of the Chain Master" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_VOICE_OF_THE_CHAIN_MASTER">
 		<supports>Intlock Invocation, Pact of the Chain</supports>
 		<prerequisite>Pact of the Chain feature</prerequisite>
 		<requirements>ID_WOTC_PHB_CLASS_FEATURE_INTLOCK_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
@@ -787,7 +787,7 @@
 			<description>You can communicate telepathically with your familiar and perceive through your familiar’s senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar’s senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</description>
 		</sheet>
 	</element>
-	<element name="Whispers of the Grave" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_WHISPERS_OF_THE_GRAVE">
+	<element name="Whispers of the Grave" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_WHISPERS_OF_THE_GRAVE">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>9th level</prerequisite>
 		<requirements>[level:9]</requirements>
@@ -805,7 +805,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" />
 		</rules>
 	</element>
-	<element name="Witch Sight" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_WITCH_SIGHT">
+	<element name="Witch Sight" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_CLASS_FEATURE_ELDRITCH_INVOCATION_WITCH_SIGHT">
 		<supports>Intlock Invocation</supports>
 		<prerequisite>15th level</prerequisite>
 		<requirements>[level:15]</requirements>
@@ -818,28 +818,28 @@
 		</sheet>
 	</element>
 
-	<element name="The Fiend" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_FIEND">
+	<element name="The Fiend" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_FIEND">
 		<supports>Intlock Patron</supports>
 		<description>
 			<p>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz’Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL"/>
 		</description>
 		<sheet display="false">
 			<description>You have made a pact with a fiend from the lower planes of existence.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK" level="6" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE" level="10" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL" level="14" />
 		</rules>
 	</element>
-	<element name="Expanded Spell List" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST">
+	<element name="Expanded Spell List" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST">
 		<description>
 			<p>The Fiend lets you choose from an expanded list of spells when you learn an Intlock spell. The following spells are added to the Intlock spell list for you.</p>
 			<h5 class="caption">FIEND EXPANDED SPELLS</h5>
@@ -870,7 +870,7 @@
 			<extend>ID_PHB_SPELL_HALLOW</extend>
 		</spellcasting>
 	</element>
-	<element name="Dark One’s Blessing" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING">
+	<element name="Dark One’s Blessing" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING">
 		<description>
 			<p>Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Intelligence modifier + your Intlock level (minimum of 1).</p>
 		</description>
@@ -882,7 +882,7 @@
 			<stat name="dark ones blessing:temp hp" value="level:intlock" />
 		</rules>
 	</element>
-	<element name="Dark One’s Own Luck" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK">
+	<element name="Dark One’s Own Luck" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK">
 		<description>
 			<p>Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll’s effects occur.</p>
 			<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
@@ -891,7 +891,7 @@
 			<description>When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll.</description>
 		</sheet>
 	</element>
-	<element name="Fiendish Resilience" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE">
+	<element name="Fiendish Resilience" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE">
 		<description>
 			<p>Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.</p>
 		</description>
@@ -899,7 +899,7 @@
 			<description>You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.</description>
 		</sheet>
 	</element>
-	<element name="Hurl Through Hell" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL">
+	<element name="Hurl Through Hell" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL">
 		<description>
 			<p>Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.</p>
 			<p class="indent">At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.</p>
@@ -911,28 +911,28 @@
 		</sheet>
 	</element>
 
-	<element name="The Archfey" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_ARCHFEY">
+	<element name="The Archfey" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_THE_ARCHFEY">
 		<supports>Intlock Patron</supports>
 		<description>
 			<p>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being’s motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM"/>
 		</description>
 		<sheet display="false">
 			<description>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE" level="6" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES" level="10" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM" level="14" />
 		</rules>
 	</element>
-	<element name="Expanded Spell List" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST">
+	<element name="Expanded Spell List" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST">
 		<description>
 			<p>The Archfey lets you choose from an expanded list of spells when you learn an Intlock spell. The following spells are added to the Intlock spell list for you.</p>
 			<h5 class="caption">ARCHFEY EXPANDED SPELLS</h5>
@@ -963,7 +963,7 @@
 			<extend>ID_PHB_SPELL_SEEMING</extend>
 		</spellcasting>
 	</element>
-	<element name="Fey Presence" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE">
+	<element name="Fey Presence" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE">
 		<description>
 			<p>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your Intlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.</p>
 			<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
@@ -972,7 +972,7 @@
 			<description>You can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw. The creatures that fail their saving throws are all charmed or frightened by you until the end of your next turn.</description>
 		</sheet>
 	</element>
-	<element name="Misty Escape" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE">
+	<element name="Misty Escape" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE">
 		<description>
 			<p>Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</p>
 			<p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
@@ -981,7 +981,7 @@
 			<description>When you take damage, you can turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</description>
 		</sheet>
 	</element>
-	<element name="Beguiling Defenses" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES">
+	<element name="Beguiling Defenses" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES">
 		<description>
 			<p>Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your Intlock spell save DC or be charmed by you for 1 minute or until the creature takes any damage.</p>
 		</description>
@@ -989,7 +989,7 @@
 			<description>You are immune to being charmed, and when another creature attempts to charm you, you can attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw or be charmed by you for 1 minute or until the creature takes any damage.</description>
 		</sheet>
 	</element>
-	<element name="Dark Delirium" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM">
+	<element name="Dark Delirium" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM">
 		<description>
 			<p>Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your Intlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.</p>
 			<p class="indent">Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.</p>
@@ -1000,29 +1000,29 @@
 		</sheet>
 	</element>
 
-	<element name="The Great Old One" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_GREAT_OLD_ONE">
+	<element name="The Great Old One" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_THE_GREAT_OLD_ONE">
 		<supports>Intlock Patron</supports>
 		<description>
 			<p>Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it.</p>
 			<p class="indent">Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD"/>
+			<div element="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL"/>
 		</description>
 		<sheet display="false">
 			<description>Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD" level="6" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD" level="10" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL" level="14" />
 		</rules>
 	</element>
-	<element name="Expanded Spell List" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST">
+	<element name="Expanded Spell List" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST">
 		<description>
 			<p>The Great Old One lets you choose from an expanded list of spells when you learn an Intlock spell. The following spells are added to the Intlock spell list for you.</p>
 			<h5 class="caption">GREAT OLD ONE EXPANDED SPELLS</h5>
@@ -1053,7 +1053,7 @@
 			<extend>ID_PHB_SPELL_TELEKINESIS</extend>
 		</spellcasting>
 	</element>
-	<element name="Awakend Mind" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND">
+	<element name="Awakend Mind" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND">
 		<description>
 			<p>Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.</p>
 		</description>
@@ -1061,7 +1061,7 @@
 			<description>You can communicate telepathically with any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.</description>
 		</sheet>
 	</element>
-	<element name="Entropic Ward" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD">
+	<element name="Entropic Ward" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD">
 		<description>
 			<p>At 6th level, you learn to magically ward yourself against attack and to turn an enemy’s failed strike into good luck for yourself. When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. If the attack misses you, your next attack roll against the creature has advantage if you make it before the end of your next turn.</p>
 			<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
@@ -1070,7 +1070,7 @@
 			<description>When a creature makes an attack roll against you, you can impose disadvantage on that roll. If the attack misses you, your next attack roll against the creature has advantage if you make it before the end of your next turn.</description>
 		</sheet>
 	</element>
-	<element name="Thought Shield" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD">
+	<element name="Thought Shield" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD">
 		<description>
 			<p>Starting at 10th level, your thoughts can’t be read by telepathy or other means unless you allow it. You also have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you do.</p>
 		</description>
@@ -1081,7 +1081,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
 		</rules>
 	</element>
-	<element name="Create Thrall" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL">
+	<element name="Create Thrall" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_INTLOCK_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL">
 		<description>
 			<p>At 14th level, you gain the ability to infect a humanoid’s mind with the alien magic of your patron. You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a remove curse spell is cast on it, the charmed condition is removed from it, or you use this feature again.</p>
 			<p class="indent">You can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence.</p>
