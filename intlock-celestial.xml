@@ -8,31 +8,31 @@
       <file name="intlock-celestial.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/intlock-celestial.xml" />
     </update>
   </info>
-  <element name="The Celestial" type="Archetype" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_CELESTIAL">
+  <element name="The Celestial" type="Archetype" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_CELESTIAL">
     <supports>Intlock Patron</supports>
     <description>
       <p>Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, or unicorn or to another entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.</p>
       <p class="indent">Being connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.</p>
-      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_EXPANDED_SPELL_LIST" />
-      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_BONUS_CANTRIPS" />
-      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_HEALING_LIGHT" />
-      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_RADIANT_SOUL" />
-      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_CELESTIAL_RESILIENCE" />
-      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_SEARING_VENGANCE" />
+      <div element="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_EXPANDED_SPELL_LIST" />
+      <div element="ID_WOTC_XGT_INTLOCKE_ARCHETYPE_FEATURE_CELESTIAL_BONUS_CANTRIPS" />
+      <div element="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_HEALING_LIGHT" />
+      <div element="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_RADIANT_SOUL" />
+      <div element="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_CELESTIAL_RESILIENCE" />
+      <div element="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_SEARING_VENGANCE" />
     </description>
     <sheet>
       <description>Your patron is a powerful being of the Upper Planes.</description>
     </sheet>
     <rules>
-      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_EXPANDED_SPELL_LIST" level="1"/>
-      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_BONUS_CANTRIPS" level="1"/>
-      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_HEALING_LIGHT" level="1"/>
-      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_RADIANT_SOUL" level="6"/>
-      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_CELESTIAL_RESILIENCE" level="10"/>
-      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_SEARING_VENGANCE" level="14"/>
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_EXPANDED_SPELL_LIST" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_BONUS_CANTRIPS" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_HEALING_LIGHT" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_RADIANT_SOUL" level="6"/>
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_CELESTIAL_RESILIENCE" level="10"/>
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_SEARING_VENGANCE" level="14"/>
     </rules>
   </element>
-  <element name="Expanded Spell List" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_EXPANDED_SPELL_LIST">
+  <element name="Expanded Spell List" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_EXPANDED_SPELL_LIST">
     <supports>Intlock</supports>
     <description>
       <p>The Celestial lets you choose from an expanded list of spells when you learn a intlock spell. The following spells are added to the intlock spell list for you.</p>
@@ -64,7 +64,7 @@
       <extend>ID_PHB_SPELL_GREATER_RESTORATION</extend>
     </spellcasting>
   </element>
-  <element name="Bonus Cantrips" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_BONUS_CANTRIPS">
+  <element name="Bonus Cantrips" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_BONUS_CANTRIPS">
     <description>
       <p>At 1st level, you learn the <i>sacred flame</i> and <i>light</i> cantrips. They count as intlock cantrips for you, but they don’t count against your number of cantrips known.</p>
     </description>
@@ -76,7 +76,7 @@
       <grant type="Spell" id="ID_PHB_SPELL_LIGHT" level="1" spellcasting="Intlock" />
     </rules>
   </element>
-  <element name="Healing Light" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_HEALING_LIGHT">
+  <element name="Healing Light" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_HEALING_LIGHT">
     <description>
       <p>At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your intlock level.</p>
       <p class="indent">As a bonus action, you can heal one creature you can see within 60 feet of you, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.</p>
@@ -91,7 +91,7 @@
       <stat name="healing light:max uses" value="intelligence:modifier" />
     </rules>
   </element>
-  <element name="Radiant Soul" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_RADIANT_SOUL">
+  <element name="Radiant Soul" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_RADIANT_SOUL">
     <description>
       <p>Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you can add your Charisma modifier to one radiant or fire damage roll of that spell against one of its targets. </p>
     </description>
@@ -103,7 +103,7 @@
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
     </rules>
   </element>
-  <element name="Celestial Resilience" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_CELESTIAL_RESILIENCE">
+  <element name="Celestial Resilience" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_CELESTIAL_RESILIENCE">
     <description>
       <p>Starting at 10th level, you gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your intlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your intlock level + your Charisma modifier.</p>
     </description>
@@ -117,7 +117,7 @@
       <stat name="celestial resilience:ally temp hp" value="intelligence:modifier" />
     </rules>
   </element>
-  <element name="Searing Vengance" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CELESTIAL_SEARING_VENGANCE">
+  <element name="Searing Vengance" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_INTLOCK_ARCHETYPE_FEATURE_CELESTIAL_SEARING_VENGANCE">
     <description>
       <p>Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your Charisma modifier, and it is blinded until the end of the current turn. </p>
       <p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
