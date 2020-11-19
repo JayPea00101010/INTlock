@@ -11,7 +11,7 @@
 	</info>
 	
 	<element name="The Currency Conspiracy" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_CURRENCY_CONSPIRACY">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>Hushed whispers fill your mind, informing you that your memories are your own. You don’t quite understand what that means, but it seems that the Cabal may have a grand plan that requires your action and needs you to be aware of the reality behind your deeds. Perhaps you were knowledgeable and unscrupulous, willing to bargain away the life of another, or perhaps more powerful entities, intervened on your behalf and restored your memory. Nevertheless, now you know the truth behind the Currency Conspiracy. Along with this knowledge comes the ability to manifest the unusual power of Gilt and to wield a measure of control over the karensee. Will you use it to further the dark goals of the Conspiracy, or will you bite the hand that feeds and turn against the dark masterminds of the Cabal?</p>
 			<p class="indent">The choice is yours, but the price must be paid in blood.</p>
