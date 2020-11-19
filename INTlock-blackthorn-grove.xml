@@ -11,7 +11,7 @@
 	</info>
 	
 	<element name="The Blackthorn Grove" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_BLACKTHORN_GROVE">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>You’ve torn out your heart as an offering to the Blackthorn Grove after braving the Maze of Blood and resisting the temptations of the Fields of Acedia. In place of your heart, a pulsing, beating, writhing mass of thorns has grown and made you whole. The lifeblood of the world itself runs through your veins, granting you power and passion alike to fulfill your purpose, whatever that may be. The trials and suffering of your past beckon you to make amends or take your revenge, but the feeling of grass under your feet and the sunlight upon your face is enough to help you understand the worth of life. Wander alone no longer, for even in death the Grove shall grant you a home.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_BLACKTHORN_GROVE_EXPANDED_SPELL_LIST"/>
