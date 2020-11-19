@@ -10,7 +10,7 @@
 	</info>
 	
 	<element name="The Eternal Citadel" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_ETERNAL_CITADEL">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>You’ve made a pact with the Eternal Citadel, a massive yet empty bastion that seems to wander between worlds, collecting travelers and releasing them once they agree to serve. The Eternal Citadel communicates through the silent transfer of emotions and feelings – an instinctual sense to follow a course of action, no matter how enigmatic it may seem. An unknown number of people have sworn their allegiance to the Citadel, and few ever meet, but they all serve the same end, known or otherwise: preservation against the forces that seek destruction.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_ETERNAL_CITADEL_EXPANDED_SPELL_LIST"/>
