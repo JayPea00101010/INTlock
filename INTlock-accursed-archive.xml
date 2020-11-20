@@ -11,7 +11,7 @@
 	</info>
 	
 	<element name="The Accursed Archive" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_ACCURSED_ARCHIVE">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>In every library there is a book that has never been read, a section that has never been seen, and a hallway that leads to nowhere – yet, you have managed to read that tome of unspoken secrets, find that shelf of unholy blasphemies, and step beyond the dead-end corridor into the Accursed Archive, where you have become bound to the nightmare inducing writings within. Demonology, blood magic, and the summoning of things from beyond are among the most mundane of topics here, but draw the eye and call to the hand nonetheless. By some malignant intelligence that selects only the most desperate, the most ambitious, and the most willing to sacrifice, the Accursed Archive collects souls to do its ruinous work: to share the terrible truths that reside upon its endless shelves, and bring chaos and upheaval to the outside world through the disclosure of these forgotten secrets.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_ACCURSED_ARCHIVE_EXPANDED_SPELL_LIST"/>
