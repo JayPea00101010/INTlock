@@ -10,7 +10,7 @@
 	</info>
 	
 	<element name="The Forbidden Graveyard" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_FORBIDDEN_GRAVEYARD">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>You’ve stepped into the Forbidden Graveyard, a sanctuary found on the boundary between life and death, where the rare few whose minds are attuned to this place come to wander as their bodies heal or slip away into the cold clutches of the night. Those who embrace the experience and seal shut the Gate of Souls within find themselves gifted with an understanding of both the living and the dead. Unknown to all but those like you, the Gate requires repayment for this mercy, and only the souls of others will do. Choose wisely, for all who cross your path are marked for collection by the Graveyard. It is up to you to safeguard them from that dark plane or to send them there to take your place in the cold embrace of death.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_FORBIDDEN_GRAVEYARD_EXPANDED_SPELL_LIST"/>
