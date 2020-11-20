@@ -10,7 +10,7 @@
 	</info>
 	
 	<element name="The Fallen Exile" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_FALLEN_EXILE">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>Stars beyond measure populate the void beyond the world while celestial spheres circle above. You have met with one of their number, cast down by the many cold and unfeeling suns above for the sin of falling in love with a mortal. As punishment, the spiteful and envious stars shined their pale fury upon the paramour, destroying them utterly. The Exile now wanders the world it has been cast upon, appearing as a shimmer of light. Its goal is known only to those whom it trusts, and it grants power to them as it is powerless itself, stripped of interaction with the mortal world for its hubris. It endlessly searches, seeking either a soul of great kindness to help it find the knowledge and power to resurrect its fallen paramour or one unscrupulous enough to wage war upon the very stars themselves. The light shines, but that fire can be cold and merciless, like the wrath of a love destroyed.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_EXILE_EXPANDED_SPELL_LIST"/>
