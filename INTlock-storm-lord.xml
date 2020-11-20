@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="The Storm Lord" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_STORMLORD">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>You’ve made a pact with an ancient power known as the Storm Lord. Massive and timeless, this godlike entity sails the winds of the void through the darkest places between the skies of countless worlds. It is the spirit that consumes the purified souls of heroes as it welcomes them into its kingdom. Its long tendrils of lightning cover the sky, heralding the violent tempest that follows. This entity finds silent amusement at seeing mortals in peril, and it tends to draw cults of shadowy beings to worship at its altars, performing dark rituals in the name of the Lord of Winds. You have stood before the Storm Lord, unbowed and unbroken, to make a pact that will shake the very fabric of reality. Sparks will leap from your fingertips and fog will rise from your breath as you strike down your enemies with the devastating and majestic power of the Master of the Unfallen Kingdom.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_STORMLORD_EXPANDED_SPELL_LIST"/>
