@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<element name="The Wild Huntsman" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_WILD_HUNTSMAN">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>You’ve made a pact with the Wild Huntsman, a dark incarnation of the predatory nature of man. Cursed with a bitter chill that can only be shaken by the blood of the prey and riding astride a steed whose eyes are cold as ice, the Wild Huntsman journeys between the planes seeking the greatest of challenges and the weakest of souls to harvest for its collection. You’ve encountered this entity and survived where others have fallen before its spear, and in return, your life has been spared and your bargain made. You’ve been granted a place at the Huntsman’s table and the services of its tireless steeds and hunting hounds, who howl in the darkest winter nights while seeking living souls to claim</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_HUNTSMAN_EXPANDED_SPELL_LIST" />
