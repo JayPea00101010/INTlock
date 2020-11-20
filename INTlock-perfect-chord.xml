@@ -10,7 +10,7 @@
 	</info>
 	
 	<element name="The Perfect Chord" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_PERFECT_CHORD">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>You have heard the most sublime sound in the world, and it has changed you forever. You’ve taken the resonance into your beating heart and it has brought meaning and inspiration to your days. The Perfect Chord resounds through the quiet places of the world as a clear and harmonious note that spirals with infinite complexity, gaining sentience and life with every sound it collects. It has no motive but to include every sound in the universe within itself, and it inspires others with an endless desire to find new forms of radiant music to call forth and collect.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_PERFECT_CHORD_EXPANDED_SPELL_LIST"/>
