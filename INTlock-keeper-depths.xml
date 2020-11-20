@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<element name="The Keeper of the Depths" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_KEEPER_DEPTHS">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>You’ve made a pact with an ancient oceanic entity known as the Keeper of the Depths. As life teems within the seas, so do the secrets of the forgotten ages – sunken cities, ships lost at sea, and treasures unimaginable gone to the darkest currents that churn with horrible tentacles and creatures from nightmare. The Keeper watches over all this hidden knowledge, and harvests ever more in its endless pursuit of the unspoken secrets of the universe. In the deepest crevices where sunlight has never been seen, all oceans are one to the Keeper of the Depths, and its desire is insatiable.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_KEEPER_DEPTHS_EXPANDED_SPELL_LIST"/>
