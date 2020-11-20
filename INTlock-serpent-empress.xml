@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="The Serpent Empress" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_SERPENT_EMPRESS">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>Situated within her palace of gold and turquoise, the Serpent Empress sleeps in serene silence, guiding her slaves to serve in her secret business. Envious and vain, the Empress personifies greed and avarice in the hearts of man. Jealousy, spite, and simple pride have driven her servants to her side. She whispers in a sibilant voice, speaking of wealth and power promised but so rarely delivered. The sins she offers are subtle at first, but grow in style and salaciousness with every slow cycle of the hourglass. You’ve assigned yourself to her service and sworn fealty to the Serpent Empress in exchange for a sliver of her supreme strength.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_SERPENT_EMPRESS_EXPANDED_SPELL_LIST"/>
