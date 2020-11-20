@@ -10,7 +10,7 @@
 	</info>
 	
 	<element name="The Weaver of Lies" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_WEAVER_OF_LIES">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>The speech of a god is the act of creation itself, but what happens when the gods lie? The small accumulated deceptions come together, forming a creature of webs and treachery, lies and deceit. The Weaver, it is called, but it is a being woven from the lies of the gods themselves. Its influence is felt each day, in the small comforts one tells oneself to the greatest of blasphemies against the divine concordant. Spiders toil in service to the Weaver, and you've joined them in your greed.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_WEAVER_OF_LIES_EXPANDED_SPELL_LIST"/>
