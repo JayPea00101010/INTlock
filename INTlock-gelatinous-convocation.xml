@@ -10,7 +10,7 @@
 	</info>
 	
 	<element name="The Gelatinous Convocation" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_GELATINOUS_CONVOCATION">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>You’ve made a pact with the cheerful wandering cubes of sentient ooze that wiggle and wobble their way across the multiverse. They visit worlds beyond measure with the singular goal of spreading their offspring within the deepest dungeons to collect and absorb the memories of the fallen. As they happily bounce between the planes, they occasionally encounter a soul they view as truly amusing. With a mere wave of their pseudopods, they granted you a measure of their strange power over slimes and oozes. Now, their joy is yours.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_GELATINOUS_CONVOCATION_EXPANDED_SPELL_LIST"/>
