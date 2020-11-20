@@ -10,7 +10,7 @@
 	</info>
 	
 	<element name="The Gray Portrait" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_GRAY_PORTRAIT">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>Your dedication to art and beauty has led you to discover the art of creating a Gray Portrait: an artifact that your soul and body are bound to that channels the ambitions you have always held but never revealed. The portrait reflects your inner self and the dark desires you hold, and suffers the damage you would take, the diseases you would contract, and the cruelty you may inflict. It grants you the power to use your art to perform feats of incredible magic, and to paint beauty and ugliness alike upon the fabric of reality. This freedom often has hideous consequences, as you are forever tormented by the demands of that horrible self that lurks within your painted mirror. You are not yourself. You are a copy, a false perfection created by a master, and your master’s demands must be met. The Portrait requires it.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_GRAY_PORTRAIT_EXPANDED_SPELL_LIST"/>
