@@ -10,7 +10,7 @@
 	</info>
 	
 	<element name="The Warrior Saint" type="Archetype" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_INTLOCK_ARCHETYPE_OTHERWORLDLY_PATRON_WARRIOR_SAINT">
-		<supports>Otherworldly Patron</supports>
+		<supports>Intlock Patron</supports>
 		<description>
 			<p>You've made a pact with the Warrior-Saint, one of the great champions of the multiverse. This ancient being acts as an enforcer of the cosmic balance - law and chaos, good and  evil. It is the agent of the forces of creation and destruction that act upon the world, and is more akin to a supernatural phenomenon than a god or demon. The Warrior-Saint grants objects and boons of terrible power crafted during the creation of the world, as well as the strength to enforce your own morality and philosophy in the eternal conflict that spans between the planes. In exchange, it watches through the eyes of its servants, and uses them as guardians of its treasures.</p>
 			<div element="ID_GFP_COFSA_INTLOCK_ARCHETYPE_FEATURE_WARRIOR_SAINT_EXPANDED_SPELL_LIST"/>
